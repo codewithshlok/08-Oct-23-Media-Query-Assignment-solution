@@ -1,0 +1,20 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    width: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .gallery img{
+        width:40%;
+    }
+}
+@media screen and (max-width:500px) {
+    .gallery img{
+        width:100%;
+    }
+}
